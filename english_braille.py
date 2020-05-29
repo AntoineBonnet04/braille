@@ -324,7 +324,5 @@ def english_file_to_braille(fname):
 
 
 if __name__ == '__main__':
-    doctest.testmod()    # you may want to comment/uncomment along the way
-    # and add tests down here
-    print(english_text_to_braille('I went to New York over the summer and it was fucking amazing bro'))
+    doctest.testmod()  
     
